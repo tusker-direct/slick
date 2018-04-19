@@ -2981,7 +2981,7 @@
 
         var _ = this;
 
-        if (_.$dots !== null) {
+        if (_ && _.$dots) {
 
             _.$dots
                 .find('li')
